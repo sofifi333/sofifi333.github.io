@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', sans-serif;
+    box-sizing: border-box;
+}
+
+#about {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about > div {
+
+    flex-direction: column;
+    width: 400px;
+}
